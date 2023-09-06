@@ -11,6 +11,9 @@ gem "decidim", "0.27.3"
 # gem "decidim-initiatives", "0.27.3"
 # gem "decidim-templates", "0.27.3"
 
+# add modules
+gem "decidim-alternative_landing", git: "https://github.com/Platoniq/decidim-module-alternative_landing"
+
 gem "bootsnap", "~> 1.3"
 
 gem "puma", ">= 5.0.0"

@@ -5,13 +5,21 @@
     "@decidim/browserslist-config": "^0.27.4",
     "@decidim/core": "^0.27.4",
     "@decidim/elections": "^0.27.4",
-    "@decidim/webpacker": "^0.27.4"
+    "@decidim/webpacker": "^0.27.4",
+    "@fullcalendar/core": "^6.1.8",
+    "@fullcalendar/daygrid": "^6.1.8",
+    "@fullcalendar/timegrid": "^6.1.8",
+    "codemirror": "^5.65.15",
+    "foundation-sites": "^6.8.1"
   },
   "version": "0.1.0",
   "devDependencies": {
     "@decidim/dev": "^0.27.4",
     "@decidim/eslint-config": "^0.27.4",
-    "@decidim/stylelint-config": "^0.27.4"
+    "@decidim/stylelint-config": "^0.27.4",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.28.1"
   },
   "browserslist": [
     "extends @decidim/browserslist-config"
