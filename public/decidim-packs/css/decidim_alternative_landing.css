@@ -1,0 +1,340 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/@decidim/webpacker/src/loaders/decidim-sass-loader.js!../../../.rvm/gems/ruby-3.0.2/bundler/gems/decidim-module-alternative_landing-110292c2b0f3/app/packs/entrypoints/decidim_alternative_landing.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/**
+ * Foundation for Sites
+ * Version 6.8.1
+ * https://get.foundation
+ * Licensed under MIT Open Source
+ */
+#calendar table {
+  margin-bottom: 0;
+}
+#calendar td {
+  border-color: #e6e6e6 !important;
+}
+#calendar .fc-button-primary {
+  border-color: transparent;
+  text-transform: uppercase;
+  font-size: 90%;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+#calendar .fc-button-primary, #calendar .fc-button-primary.disabled, #calendar .fc-button-primary[disabled], #calendar .fc-button-primary.disabled:hover, #calendar .fc-button-primary[disabled]:hover, #calendar .fc-button-primary.disabled:focus, #calendar .fc-button-primary[disabled]:focus {
+  background-color: #8a8a8a;
+  color: white;
+}
+#calendar .fc-button-primary:hover, #calendar .fc-button-primary:focus {
+  background-color: #8a8a8a;
+  color: white;
+}
+#calendar .fc-button-primary:disabled {
+  color: #0a0a0a;
+  border-color: #0a0a0a;
+}
+#calendar .fc-button-primary:disabled, #calendar .fc-button-primary:disabled:hover, #calendar .fc-button-primary:disabled:focus, #calendar .fc-button-primary:disabled.disabled, #calendar .fc-button-primary:disabled.disabled:hover, #calendar .fc-button-primary:disabled.disabled:focus, #calendar .fc-button-primary:disabled[disabled], #calendar .fc-button-primary:disabled[disabled]:hover, #calendar .fc-button-primary:disabled[disabled]:focus {
+  background-color: transparent;
+}
+#calendar .fc-button-primary:hover {
+  filter: brightness(95%);
+  border-color: transparent;
+}
+#calendar .fc-button-primary.disabled, #calendar .fc-button-primary.disabled:hover, #calendar .fc-button-primary[disabled]:hover, #calendar .fc-button-primary.disabled:focus, #calendar .fc-button-primary[disabled]:focus {
+  border-color: #8a8a8a;
+  color: #8a8a8a;
+}
+#calendar .fc-button-primary.fc-button-active {
+  filter: brightness(85%);
+}
+#calendar .fc-content-skeleton td {
+  background-color: white;
+}
+#calendar .fc-day-number {
+  display: block;
+  float: none;
+  text-align: center;
+}
+#calendar .fc-day-top {
+  background-color: #8a8a8a;
+}
+#calendar .fc-event-container a:focus {
+  color: white;
+  filter: brightness(85%);
+}
+#calendar .fc-scroller {
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+#calendar .fc-title {
+  margin-left: 5px;
+}
+#calendar .fc-today {
+  background-color: rgb(255, 255, 128);
+}
+
+.calendar-filters .button.cal-filter {
+  margin-right: 0.5rem;
+}
+.calendar-filters .debate, .calendar-filters .debate.disabled, .calendar-filters .debate[disabled], .calendar-filters .debate.disabled:hover, .calendar-filters .debate[disabled]:hover, .calendar-filters .debate.disabled:focus, .calendar-filters .debate[disabled]:focus {
+  background-color: var(--primary);
+  color: white;
+}
+.calendar-filters .debate:hover, .calendar-filters .debate:focus {
+  background-color: var(--primary);
+  color: white;
+}
+.calendar-filters .debate.hollow {
+  color: var(--primary);
+  border-color: var(--primary);
+}
+.calendar-filters .debate.hollow, .calendar-filters .debate.hollow:hover, .calendar-filters .debate.hollow:focus, .calendar-filters .debate.hollow.disabled, .calendar-filters .debate.hollow.disabled:hover, .calendar-filters .debate.hollow.disabled:focus, .calendar-filters .debate.hollow[disabled], .calendar-filters .debate.hollow[disabled]:hover, .calendar-filters .debate.hollow[disabled]:focus {
+  background-color: transparent;
+}
+.calendar-filters .election, .calendar-filters .election.disabled, .calendar-filters .election[disabled], .calendar-filters .election.disabled:hover, .calendar-filters .election[disabled]:hover, .calendar-filters .election.disabled:focus, .calendar-filters .election[disabled]:focus {
+  background-color: var(--warning);
+  color: white;
+}
+.calendar-filters .election:hover, .calendar-filters .election:focus {
+  background-color: var(--warning);
+  color: white;
+}
+.calendar-filters .election.hollow {
+  color: var(--warning);
+  border-color: var(--warning);
+}
+.calendar-filters .election.hollow, .calendar-filters .election.hollow:hover, .calendar-filters .election.hollow:focus, .calendar-filters .election.hollow.disabled, .calendar-filters .election.hollow.disabled:hover, .calendar-filters .election.hollow.disabled:focus, .calendar-filters .election.hollow[disabled], .calendar-filters .election.hollow[disabled]:hover, .calendar-filters .election.hollow[disabled]:focus {
+  background-color: transparent;
+}
+.calendar-filters .meeting, .calendar-filters .meeting.disabled, .calendar-filters .meeting[disabled], .calendar-filters .meeting.disabled:hover, .calendar-filters .meeting[disabled]:hover, .calendar-filters .meeting.disabled:focus, .calendar-filters .meeting[disabled]:focus {
+  background-color: var(--success);
+  color: white;
+}
+.calendar-filters .meeting:hover, .calendar-filters .meeting:focus {
+  background-color: var(--success);
+  color: white;
+}
+.calendar-filters .meeting.hollow {
+  color: var(--success);
+  border-color: var(--success);
+}
+.calendar-filters .meeting.hollow, .calendar-filters .meeting.hollow:hover, .calendar-filters .meeting.hollow:focus, .calendar-filters .meeting.hollow.disabled, .calendar-filters .meeting.hollow.disabled:hover, .calendar-filters .meeting.hollow.disabled:focus, .calendar-filters .meeting.hollow[disabled], .calendar-filters .meeting.hollow[disabled]:hover, .calendar-filters .meeting.hollow[disabled]:focus {
+  background-color: transparent;
+}
+.calendar-filters .participatory_process_step, .calendar-filters .participatory_process_step.disabled, .calendar-filters .participatory_process_step[disabled], .calendar-filters .participatory_process_step.disabled:hover, .calendar-filters .participatory_process_step[disabled]:hover, .calendar-filters .participatory_process_step.disabled:focus, .calendar-filters .participatory_process_step[disabled]:focus {
+  background-color: var(--secondary);
+  color: white;
+}
+.calendar-filters .participatory_process_step:hover, .calendar-filters .participatory_process_step:focus {
+  background-color: var(--secondary);
+  color: white;
+}
+.calendar-filters .participatory_process_step.hollow {
+  color: var(--secondary);
+  border-color: var(--secondary);
+}
+.calendar-filters .participatory_process_step.hollow, .calendar-filters .participatory_process_step.hollow:hover, .calendar-filters .participatory_process_step.hollow:focus, .calendar-filters .participatory_process_step.hollow.disabled, .calendar-filters .participatory_process_step.hollow.disabled:hover, .calendar-filters .participatory_process_step.hollow.disabled:focus, .calendar-filters .participatory_process_step.hollow[disabled], .calendar-filters .participatory_process_step.hollow[disabled]:hover, .calendar-filters .participatory_process_step.hollow[disabled]:focus {
+  background-color: transparent;
+}
+.calendar-filters .survey, .calendar-filters .survey.disabled, .calendar-filters .survey[disabled], .calendar-filters .survey.disabled:hover, .calendar-filters .survey[disabled]:hover, .calendar-filters .survey.disabled:focus, .calendar-filters .survey[disabled]:focus {
+  background-color: var(--alert);
+  color: white;
+}
+.calendar-filters .survey:hover, .calendar-filters .survey:focus {
+  background-color: var(--alert);
+  color: white;
+}
+.calendar-filters .survey.hollow {
+  color: var(--alert);
+  border-color: var(--alert);
+}
+.calendar-filters .survey.hollow, .calendar-filters .survey.hollow:hover, .calendar-filters .survey.hollow:focus, .calendar-filters .survey.hollow.disabled, .calendar-filters .survey.hollow.disabled:hover, .calendar-filters .survey.hollow.disabled:focus, .calendar-filters .survey.hollow[disabled], .calendar-filters .survey.hollow[disabled]:hover, .calendar-filters .survey.hollow[disabled]:focus {
+  background-color: transparent;
+}
+
+.cover-full .cover-body,
+.cover-half .cover-body {
+  font-size: 1.25em;
+}
+
+.cover-full {
+  color: var(--color_text);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: luminosity;
+  background-color: var(--color_background_image);
+  min-height: 100vh;
+}
+.cover-full .cover-text {
+  background-color: rgba(var(--color_background_text-rgb), 0.7);
+  padding: 2em;
+}
+
+.cover-half {
+  display: grid;
+  grid-template-columns: 40em 1fr;
+}
+.cover-half .cover-image {
+  grid-column: 2;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: luminosity;
+  background-color: var(--color_background_image);
+  min-height: 100vh;
+}
+.cover-half .cover-text {
+  padding: 3em;
+}
+@media print, screen and (max-width: 63.99875em) {
+  .cover-half {
+    display: block;
+  }
+  .cover-half .cover-image {
+    min-height: 50vh;
+  }
+  .cover-half .cover-text {
+    padding: 1em;
+  }
+}
+
+.navbar.transparent {
+  background-color: rgba(var(--color_navbar-rgb), 0.3);
+  position: relative;
+  margin-bottom: -50px;
+}
+
+.alternative-landing.cover-full, .alternative-landing.cover-half, .alternative-landing.tiles, .alternative-landing.stack-horizontal, .alternative-landing.stack-vertical {
+  padding: 5em;
+}
+.alternative-landing .heading1 {
+  font-size: 4em;
+}
+@media print, screen and (max-width: 63.99875em) {
+  .alternative-landing {
+    padding: 1em;
+  }
+  .alternative-landing .heading1 {
+    font-size: 3em;
+  }
+}
+
+.stack-vertical .stack {
+  display: flex;
+  gap: 1em;
+}
+.stack-vertical .stack .stack-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1em;
+  gap: 1em;
+}
+.stack-vertical .stack .stack-item img {
+  min-height: 15em;
+  object-fit: cover;
+}
+.stack-vertical .stack .stack-tags {
+  margin: 0;
+}
+.stack-vertical .stack .stack-tags li {
+  margin: 0;
+}
+@media print, screen and (max-width: 63.99875em) {
+  .stack-vertical .stack {
+    flex-direction: column;
+  }
+}
+
+.stack-horizontal .stack-item {
+  border: 1px solid black;
+  padding: 1em;
+  margin: 1em auto;
+  display: flex;
+  gap: 1em;
+}
+.stack-horizontal .stack-image img {
+  object-fit: cover;
+  min-height: 10em;
+}
+.stack-horizontal .stack-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+}
+.stack-horizontal .stack-image {
+  padding: 0;
+  min-width: 25%;
+  width: 25%;
+}
+.stack-horizontal .stack-link .button {
+  max-width: 15em;
+  margin: 0;
+  float: right;
+}
+@media print, screen and (max-width: 63.99875em) {
+  .stack-horizontal .stack-item {
+    flex-direction: column;
+  }
+  .stack-horizontal .stack-image {
+    width: 100%;
+  }
+  .stack-horizontal .stack-link .button {
+    margin: 1em auto 0;
+    max-width: none;
+    float: none;
+  }
+}
+
+.tiles-4 .tiles {
+  display: grid;
+  grid-template-columns: 30% 30% 40%;
+  grid-template-rows: repeat(2, 1fr);
+  min-height: 100vh;
+  color: white;
+  gap: 1em;
+}
+.tiles-4 .tile {
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: screen;
+  min-height: 4em;
+  padding: 1em;
+}
+.tiles-4 .tile .tile-body {
+  max-width: 20em;
+  background: var(--primary);
+  padding: 1em;
+}
+.tiles-4 .tile-heading {
+  grid-column: span 3;
+  background: var(--secondary);
+  margin: 0;
+}
+.tiles-4 .tile-1 {
+  grid-column: span 2;
+  grid-row: 2;
+}
+.tiles-4 .tile-2 {
+  grid-column: 3;
+  grid-row: 2/span 2;
+}
+.tiles-4 .tile-3 {
+  grid-column: 1;
+  grid-row: 3;
+}
+.tiles-4 .tile-4 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+@media print, screen and (max-width: 63.99875em) {
+  .tiles {
+    display: block;
+  }
+  .tile {
+    min-height: 50vh;
+  }
+}
+
+/*# sourceMappingURL=decidim_alternative_landing.css.map*/
