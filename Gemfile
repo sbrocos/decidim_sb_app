@@ -14,6 +14,7 @@ gem "decidim", "0.27.3"
 # add modules
 gem "decidim-alternative_landing", git: "https://github.com/Platoniq/decidim-module-alternative_landing"
 gem "decidim-decidim_awesome"
+gem "decidim-cookies", git: "https://github.com/OpenSourcePolitics/decidim-module_cookies.git"
 
 gem "bootsnap", "~> 1.3"
 
